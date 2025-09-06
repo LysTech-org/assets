@@ -1,0 +1,27 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff69b4"/>
+      <stop offset="1" stop-color="#8a2be2"/>
+    </linearGradient>
+    <radialGradient id="grad2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#ff69b4"/>
+    </filter>
+  </defs>
+
+  <rect width="256" height="256" rx="48" fill="url(#grad2)"/>
+  
+  <g filter="url(#glow)">
+    <!-- L shape -->
+    <path d="M80 64V192H176" stroke="url(#grad1)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Text moved down -->
+  <text x="128" y="240" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="32" fill="url(#grad1)">
+    &lt;LysTech/&gt;
+  </text>
+</svg>
