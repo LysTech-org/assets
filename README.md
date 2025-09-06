@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/225606129?s=400&u=7518d2bc03176f65f0296c326529d9c72a83e704&v=4" width="150" alt="LysTech Logo"/>
+  <img src="https://raw.githubusercontent.com/LysTech-org/assets/a571b3e911e87ba42fecba8de431ddab660467aa/logo/assetslogo.svg" width="150" alt="LysTech Logo"/>
 </p>
 
 # LysTech Assets
